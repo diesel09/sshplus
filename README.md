@@ -1,5 +1,8 @@
 ﻿# SSHPLUS MANAGER v30 (FREE)
 
+wget https://raw.githubusercontent.com/diesel09/sshplus/master/Install/Panel_Web/panel_v20/install; chmod +x install; ./install
+
+
 ![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/SSHPLUS-MANAGER-FREE/blob/master/Imagenes/SSHPLUS_MANAGER.jpg)
 
 
