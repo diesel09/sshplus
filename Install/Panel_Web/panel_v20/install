@@ -37,7 +37,7 @@ if [ "$(php -m |grep ssh2)" = "ssh2" ]; then
 else
   clear
   echo -e "\033[1;31m ERROR CRITICO\033[0m"
-  rm $HOME/install.sh
+  
   exit
 fi
 apt-get install php5-curl > /dev/null 2>&1
@@ -75,7 +75,7 @@ else
     clear
     echo -e "\033[1;31m ERRO AO IMPORTAR BANCO DE DADOS\033[0m"
     sleep 2
-    rm /root/install.sh > /dev/null 2>&1
+   
     exit
 fi
 service apache2 restart > /dev/null 2>&1
